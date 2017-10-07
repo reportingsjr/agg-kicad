@@ -1,0 +1,22 @@
+datasheet: http://www.ti.com/lit/ds/symlink/tps61090.pdf
+description: 2A Adjustable Boost Converter
+footprint: agg:QFN-16-EP-TI
+name: TPS61090
+pins:
+- - - [SW, 3, passive]
+    - [SW, 4, passive]
+  - - [VBAT, 8, pwrin]
+    - [EN, 11, in]
+    - [LBI, 9, in]
+  - - [SYNC, 10, in]
+  - - [GND, 13, pwrin]
+    - [PGND, 5, pwrin]
+    - [PGND, 6, pwrin]
+    - [PGND, 7, pwrin]
+    - [EP, EP, pwrin]
+- - - [VOUT, 1, pwrout]
+    - [VOUT, 15, pwrout]
+    - [VOUT, 16, pwrout]
+  - - [FB, 14, in]
+    - [LBO, 12, od]
+  - - [NC, 2, nc]
